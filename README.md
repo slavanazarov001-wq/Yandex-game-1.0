@@ -18,6 +18,10 @@
 
 Вся разработка игры ведётся **только в этом репозитории**; экспорт для загрузки в Консоль собирается из `gdevelop/YandexStarter`.
 
+## Открыть проект в GDevelop
+
+На этом компьютере GDevelop уже ставился через **winget**. Чтобы снова открыть **«Yandex game 1.0»** без поиска файла: запустите **`scripts/Open-Yandex-game-project.bat`** (двойной щелчок) или см. [docs/AUTOMATION.md](docs/AUTOMATION.md).
+
 ## Быстрый старт
 
 См. [docs/START.md](docs/START.md).

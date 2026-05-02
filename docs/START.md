@@ -1,15 +1,14 @@
 # Быстрый старт: GDevelop + этот репозиторий
 
-## 1. Установите GDevelop
+## 1. GDevelop
 
-Скачайте бесплатный редактор с [gdevelop.io](https://gdevelop.io/) (Windows: установщик или портативная версия).
+На машине, где настраивался этот репозиторий, редактор уже установлен через **`winget install GDevelop.GDevelop`**. На другом ПК — установите с [gdevelop.io](https://gdevelop.io/) или тем же winget.
 
 ## 2. Откройте проект
 
-1. Запустите **GDevelop 5**.
-2. **Open project** → укажите файл  
-   `gdevelop/YandexStarter/Yandex-game-1.0.json`  
-   в клоне этого репозитория на вашем ПК.
+**Проще всего:** двойной щелчок по **`scripts/Open-Yandex-game-project.bat`** в корне клонированного репозитория — откроется GDevelop с файлом **Yandex-game-1.0.json**.
+
+Вручную: **GDevelop** → **Open project** → `gdevelop/YandexStarter/Yandex-game-1.0.json`.
 
 Проект основан на официальном примере **auth-player** из репозитория расширения Yandex Games SDK (инициализация SDK, работа с игроком). Название проекта: **Yandex game 1.0**.
 
