@@ -1,0 +1,12 @@
+# Temp clones / tooling
+_tmp_yg/
+
+# GDevelop / export (large binaries — не коммитьте сборки без необходимости)
+export/
+**/export/
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

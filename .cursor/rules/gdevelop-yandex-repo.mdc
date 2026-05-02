@@ -1,0 +1,12 @@
+---
+description: Репозиторий Yandex-game-1.0 — вся игра только здесь, GDevelop + Яндекс Игры
+globs: gdevelop/**/*,extensions/**/*,docs/**/*.md
+alwaysApply: false
+---
+
+# Репозиторий «Yandex game 1.0»
+
+- Единственный источник истины для игры: этот git-репозиторий (**GitHub: `Yandex-game-1.0`**). Новые сцены, ассеты и логика — в проекте `gdevelop/YandexStarter/Yandex-game-1.0.json`, без дублирования кода игры вне репозитория.
+- Целевая платформа: **HTML5** для [Яндекс Игры](https://yandex.ru/games/); соблюдать `.cursor/rules/yandex-games-platform.mdc` и `docs/CHECKLIST_YANDEX.md`.
+- SDK и реклама — через расширение **Yandex Games SDK** и официальную документацию SDK; не подключать сторонние рекламные SDK.
+- Экспорт билда не коммитить без нужды (каталоги `export/` в `.gitignore`); при необходимости артефакт описывать в README или релизах GitHub.
